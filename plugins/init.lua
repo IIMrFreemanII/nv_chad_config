@@ -3,6 +3,8 @@ local overrides = require "custom.plugins.overrides"
 ---@type {[PluginName]: NvPluginConfig|false}
 local plugins = {
 
+  ["Pocco81/auto-save.nvim"] = { enabled = true },
+
   ["goolord/alpha-nvim"] = { disable = false }, -- enables dashboard
 
   ["folke/which-key.nvim"] = { disable = false }, -- enables which-key
